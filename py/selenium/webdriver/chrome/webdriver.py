@@ -43,6 +43,7 @@ class WebDriver(RemoteWebDriver):
          - desired_capabilities: Dictionary object with non-browser specific
            capabilities only, such as "proxy" or "loggingPref".
          - chrome_options: this takes an instance of ChromeOptions
+         - service_log_path: path that ChromeDriver will log to
         """
         if chrome_options is None:
             # desired_capabilities stays as passed in
